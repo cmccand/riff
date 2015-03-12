@@ -1,5 +1,9 @@
 <h2>Record View</h2>
+console.log('hi');
 <ul>
-  <li ng-repeat="riff in RiffCtrl.riffs">
-    <audio class='riff' ng-source={{riff.file}} controls autoplay></audio>
-</ul>
+  <li ng-repeat="riff in riffCtrl.riffs">
+    <audio controls>
+      <source data-ng-src="originalriff2 - 3_10_15, 9.20 PM.m4a" type='audio/mp4'>
+      </audio>
+    </li>
+  </ul>
