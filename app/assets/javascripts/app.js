@@ -7,7 +7,7 @@
   .config(function ($routeProvider) {
     $routeProvider
     .when('/audio', {
-      templateUrl: '/views/record.html',
+      templateUrl: 'templates/record.html',
       controller: 'RiffController as riffCtrl'
     })
 

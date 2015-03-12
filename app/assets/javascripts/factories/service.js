@@ -2,7 +2,7 @@
   "use strict";
   angular.module('RiffApp')
   .factory('RiffService', function ($http) {
-    var url = '';
+    var url = 'http://localhost:9000/';
 
 
     var getAllRiffs = function () {

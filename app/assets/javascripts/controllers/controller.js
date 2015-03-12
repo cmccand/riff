@@ -7,3 +7,6 @@
     RiffService.getRiffs().success(function(data) {
       RiffCtrl.riffs = data;
     });
+
+  });
+})();
